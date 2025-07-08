@@ -34,13 +34,6 @@
     "cssPath": "node_modules/swiper/swiper-bundle.min.css",
     "manual": true
   },
-  "swiper/modules": {
-    "handle": "swiper/modules",
-    "globalObject": "modules",
-    "jsPath": null,
-    "cssPath": "node_modules/swiper/modules/zoom.min.css",
-    "manual": false
-  },
   "tom-select": {
     "handle": "tom-select",
     "globalObject": "TomSelect",

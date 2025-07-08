@@ -1,0 +1,286 @@
+{
+  "key": "group_197ea341342a38",
+  "title": "Block: 50-50",
+  "fields": [
+    {
+      "key": "field_197ea346bf6980",
+      "label": "Content",
+      "name": "",
+      "aria-label": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea346bf6f99",
+      "label": "Eyebrow",
+      "name": "eyebrow",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "Small uppercase text appearing above the heading",
+      "required": 0,
+      "conditional_logic": 0,
+      "default_value": "EYEBROW",
+      "maxlength": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": ""
+    },
+    {
+      "key": "field_197ea346bf6e34",
+      "label": "Heading",
+      "name": "heading",
+      "aria-label": "",
+      "type": "group",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "sub_fields": [
+        {
+          "key": "field_197ea346bf6135",
+          "label": "Level",
+          "name": "level",
+          "aria-label": "",
+          "type": "select",
+          "instructions": "Select the heading level",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "choices": {
+            "1": "H1",
+            "2": "H2",
+            "3": "H3",
+            "4": "H4",
+            "5": "H5",
+            "6": "H6"
+          },
+          "default_value": "2",
+          "return_format": "value",
+          "multiple": 0,
+          "allow_null": 0,
+          "ui": 0,
+          "ajax": 0,
+          "placeholder": ""
+        },
+        {
+          "key": "field_197ea346bf6cf2",
+          "label": "Text",
+          "name": "text",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "The main heading text",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "Lorem Ipsum",
+          "maxlength": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        }
+      ]
+    },
+    {
+      "key": "field_197ea346bf690e",
+      "label": "Description",
+      "name": "description",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "The main body of text content",
+      "required": 0,
+      "conditional_logic": 0,
+      "default_value": "Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.",
+      "placeholder": "",
+      "maxlength": "",
+      "rows": "",
+      "new_lines": ""
+    },
+    {
+      "key": "field_197ea346bf6988",
+      "label": "Media",
+      "name": "",
+      "aria-label": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea346bf6f05",
+      "label": "Image",
+      "name": "image",
+      "aria-label": "",
+      "type": "image",
+      "instructions": "The image for the right-hand column",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "library": "all",
+      "min_width": "",
+      "min_height": "",
+      "min_size": "",
+      "max_width": "",
+      "max_height": "",
+      "max_size": "",
+      "mime_types": "",
+      "preview_size": "medium"
+    },
+    {
+      "key": "field_197ea346bf6e21",
+      "label": "Buttons",
+      "name": "",
+      "aria-label": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea346bf6c25",
+      "label": "Buttons",
+      "name": "buttons",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "Add one or more call-to-action buttons",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "pagination": 0,
+      "min": 0,
+      "max": 0,
+      "collapsed": "",
+      "button_label": "Add Button",
+      "rows_per_page": 20,
+      "sub_fields": [
+        {
+          "key": "field_197ea346bf68da",
+          "label": "Button",
+          "name": "",
+          "aria-label": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_197ea346bf6370",
+          "label": "Button",
+          "name": "button",
+          "aria-label": "",
+          "type": "link",
+          "instructions": "Button text and URL",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array"
+        },
+        {
+          "key": "field_197ea346bf6482",
+          "label": "Style",
+          "name": "style",
+          "aria-label": "",
+          "type": "select",
+          "instructions": "Choose the button's appearance",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "choices": {
+            "solid": "Solid",
+            "outline": "Outline"
+          },
+          "default_value": "solid",
+          "return_format": "value",
+          "multiple": 0,
+          "allow_null": 0,
+          "ui": 0,
+          "ajax": 0,
+          "placeholder": ""
+        }
+      ]
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "block",
+        "operator": "==",
+        "value": "wcb/50-50"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "A 50/50 split-screen block designed to feature text content alongside a prominent image.",
+  "show_in_rest": 0,
+  "modified": 1751980993
+}

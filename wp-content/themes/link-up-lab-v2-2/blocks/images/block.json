@@ -1,0 +1,72 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "wcb/images",
+  "title": "Images",
+  "description": "Display an image carousel with header section, title, description, and optional secondary link.",
+  "category": "wcb-blocks",
+  "icon": "format-gallery",
+  "keywords": [
+    "images",
+    "gallery",
+    "carousel",
+    "slideshow"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {
+        "field_197ea3280a75fa": {
+          "field_197ea3280a7a13": "2",
+          "field_197ea3280a7702": "Lorem Ipsum Dolor Title"
+        },
+        "field_197ea3280a715f": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam odio at ligula gravida gravida. Ut nec tortor in augue volutpat lacinia sed quis dolor.",
+        "field_197ea3280a781a": {
+          "url": "#",
+          "title": "View All",
+          "target": ""
+        },
+        "field_197ea3280a7d11": [
+          {
+            "field_197ea3280a73f3": {
+              "url": "https://via.placeholder.com/800x600",
+              "alt": "Sample Image 1"
+            },
+            "field_197ea3280a7839": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam odio at ligula gravida gravida."
+          },
+          {
+            "field_197ea3280a73f3": {
+              "url": "https://via.placeholder.com/800x600",
+              "alt": "Sample Image 2"
+            },
+            "field_197ea3280a7839": "Ut nec tortor in augue volutpat lacinia sed quis dolor."
+          }
+        ]
+      },
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "swiper",
+    "file:./style-index.css"
+  ]
+}

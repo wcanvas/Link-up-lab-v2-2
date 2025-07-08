@@ -1,0 +1,108 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "wcb/multicolumns",
+  "title": "Multicolumns",
+  "description": "A section with a main header and multi-column layout of feature cards, each with icons, titles, descriptions, and call-to-action buttons.",
+  "category": "wcb-blocks",
+  "icon": "columns",
+  "keywords": [
+    "multicolumns",
+    "columns",
+    "features",
+    "cards"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {
+        "field_197ea2d68d52f3": "Lorem Ipsum Dolor Title",
+        "field_197ea2d68d515e": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam odio at ligula gravida gravida. Ut nec tortor in augue volutpat lacinia sed quis dolor.",
+        "field_197ea2d68d6091": {
+          "title": "View All Features",
+          "url": "#",
+          "target": ""
+        },
+        "field_197ea2d68d6767": [
+          {
+            "field_197ea2d68d695a": {
+              "url": "https://via.placeholder.com/64x64",
+              "alt": "Feature Icon"
+            },
+            "field_197ea2d68d60a9": "Lorem Ipsum Dolor",
+            "field_197ea2d68d6d42": "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+            "field_197ea2d68d69e6": {
+              "title": "Learn More",
+              "url": "#",
+              "target": ""
+            },
+            "field_197ea2d68d65ac": {
+              "title": "Get Started",
+              "url": "#",
+              "target": ""
+            }
+          },
+          {
+            "field_197ea2d68d695a": {
+              "url": "https://via.placeholder.com/64x64",
+              "alt": "Feature Icon"
+            },
+            "field_197ea2d68d60a9": "Lorem Ipsum Dolor",
+            "field_197ea2d68d6d42": "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+            "field_197ea2d68d69e6": {
+              "title": "Learn More",
+              "url": "#",
+              "target": ""
+            },
+            "field_197ea2d68d65ac": {
+              "title": "Get Started",
+              "url": "#",
+              "target": ""
+            }
+          },
+          {
+            "field_197ea2d68d695a": {
+              "url": "https://via.placeholder.com/64x64",
+              "alt": "Feature Icon"
+            },
+            "field_197ea2d68d60a9": "Lorem Ipsum Dolor",
+            "field_197ea2d68d6d42": "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+            "field_197ea2d68d69e6": {
+              "title": "Learn More",
+              "url": "#",
+              "target": ""
+            },
+            "field_197ea2d68d65ac": {
+              "title": "Get Started",
+              "url": "#",
+              "target": ""
+            }
+          }
+        ]
+      },
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}

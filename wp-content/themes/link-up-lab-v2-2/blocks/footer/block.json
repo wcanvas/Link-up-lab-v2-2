@@ -1,0 +1,103 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "wcb/footer",
+  "title": "Footer",
+  "description": "A global site footer block that displays branding, search functionality, and key navigation elements with logos, search input, navigation menu, social media icons, and copyright notice.",
+  "category": "wcb-blocks",
+  "icon": "layout",
+  "keywords": [
+    "footer",
+    "navigation",
+    "branding",
+    "social",
+    "copyright"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {
+        "field_197ea39748feff": {
+          "url": "https://example.com/logo.png",
+          "alt": "Company Logo"
+        },
+        "field_197ea39748fb77": [
+          {
+            "field_197ea39748ffec": {
+              "url": "https://example.com/partner1.png",
+              "alt": "Partner Logo 1"
+            }
+          },
+          {
+            "field_197ea39748ffec": {
+              "url": "https://example.com/partner2.png",
+              "alt": "Partner Logo 2"
+            }
+          }
+        ],
+        "field_197ea39748f5bf": "Search by keyword",
+        "field_197ea39748f482": [
+          {
+            "field_197ea39748f3e1": {
+              "title": "About Us",
+              "url": "/about",
+              "target": ""
+            }
+          },
+          {
+            "field_197ea39748f3e1": {
+              "title": "Services",
+              "url": "/services",
+              "target": ""
+            }
+          },
+          {
+            "field_197ea39748f3e1": {
+              "title": "Contact",
+              "url": "/contact",
+              "target": ""
+            }
+          }
+        ],
+        "field_197ea39748f31c": [
+          {
+            "field_197ea39748fec8": "facebook",
+            "field_197ea39748ff08": "https://facebook.com/company"
+          },
+          {
+            "field_197ea39748fec8": "instagram",
+            "field_197ea39748ff08": "https://instagram.com/company"
+          },
+          {
+            "field_197ea39748fec8": "youtube",
+            "field_197ea39748ff08": "https://youtube.com/company"
+          }
+        ],
+        "field_197ea39748ff89": "Copyright 2025 LinkUp Lab. All Rights Reserved."
+      },
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}

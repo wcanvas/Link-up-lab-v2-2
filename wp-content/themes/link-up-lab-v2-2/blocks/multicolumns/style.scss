@@ -1,0 +1,13 @@
+@use "sass:map";
+
+.wcb-multicolumns {
+  // Custom letter-spacing for tracking-[8%]
+  .wcb-tracking-8 {
+    letter-spacing: 0.08em;
+  }
+  
+  // Custom letter-spacing for tracking-[0.03em]
+  .wcb-tracking-003 {
+    letter-spacing: 0.03em;
+  }
+}

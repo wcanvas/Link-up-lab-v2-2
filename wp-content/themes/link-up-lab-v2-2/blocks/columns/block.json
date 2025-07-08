@@ -1,0 +1,84 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "wcb/columns",
+  "title": "Columns",
+  "description": "A responsive grid of stat cards with customizable statistics, descriptions, and call-to-action buttons.",
+  "category": "wcb-blocks",
+  "icon": "columns",
+  "keywords": [
+    "columns",
+    "stats",
+    "cards",
+    "grid"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {
+        "field_197ea3052ad841": "Lorem Ipsum Dolor Title",
+        "field_197ea3052ad4bf": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam odio at ligula gravida gravida. Ut nec tortor in augue volutpat lacinia sed quis dolor.",
+        "field_197ea3052adcb4": {
+          "url": "#",
+          "title": "Learn More",
+          "target": ""
+        },
+        "field_197ea3052ad5eb": [
+          {
+            "field_197ea3052ad364": "3,000",
+            "field_197ea3052ad4f8": "green",
+            "field_197ea3052ad0e1": "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+            "field_197ea3052ad517": {
+              "url": "#",
+              "title": "Primary Action",
+              "target": ""
+            },
+            "field_197ea3052ad4fe": {
+              "url": "#",
+              "title": "Secondary Action",
+              "target": ""
+            }
+          },
+          {
+            "field_197ea3052ad364": "50%",
+            "field_197ea3052ad4f8": "yellow",
+            "field_197ea3052ad0e1": "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+            "field_197ea3052ad517": {
+              "url": "#",
+              "title": "Primary Action",
+              "target": ""
+            },
+            "field_197ea3052ad4fe": {
+              "url": "#",
+              "title": "Secondary Action",
+              "target": ""
+            }
+          }
+        ]
+      },
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "wcb/header",
+  "title": "Header",
+  "description": "A two-tiered site header with customizable top bar navigation, social icons, logo, and main navigation menu.",
+  "category": "wcb-blocks",
+  "icon": "admin-site",
+  "keywords": [
+    "header",
+    "navigation",
+    "logo",
+    "menu"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {
+        "field_197ea3707229fd": [
+          {
+            "field_197ea370722923": {
+              "url": "/about",
+              "title": "About",
+              "target": ""
+            }
+          },
+          {
+            "field_197ea370722923": {
+              "url": "/contact",
+              "title": "Contact",
+              "target": ""
+            }
+          }
+        ],
+        "field_197ea370722516": [
+          {
+            "field_197ea370722f43": "facebook",
+            "field_197ea3707227bb": "https://facebook.com"
+          },
+          {
+            "field_197ea370722f43": "youtube",
+            "field_197ea3707227bb": "https://youtube.com"
+          }
+        ],
+        "field_197ea3707221ea": {
+          "url": "https://example.com/logo.png",
+          "alt": "Site Logo"
+        },
+        "field_197ea3707226bb": "/",
+        "field_197ea370722b2a": [
+          {
+            "field_197ea37072294b": {
+              "url": "/",
+              "title": "Home",
+              "target": ""
+            }
+          },
+          {
+            "field_197ea37072294b": {
+              "url": "/services",
+              "title": "Services",
+              "target": ""
+            }
+          },
+          {
+            "field_197ea37072294b": {
+              "url": "/portfolio",
+              "title": "Portfolio",
+              "target": ""
+            }
+          }
+        ]
+      },
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "key": "group_197ea300091a70",
+  "title": "Block: Columns",
+  "fields": [
+    {
+      "key": "field_197ea3052ad0b0",
+      "label": "Content",
+      "name": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea3052ad841",
+      "label": "Title",
+      "name": "title",
+      "type": "text",
+      "instructions": "The main heading for the section",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Lorem Ipsum Dolor Title",
+      "placeholder": "",
+      "prepend": "",
+      "append": "",
+      "maxlength": ""
+    },
+    {
+      "key": "field_197ea3052ad4bf",
+      "label": "Description",
+      "name": "description",
+      "type": "textarea",
+      "instructions": "The introductory paragraph below the title",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam odio at ligula gravida gravida. Ut nec tortor in augue volutpat lacinia sed quis dolor.",
+      "placeholder": "",
+      "maxlength": "",
+      "rows": 4,
+      "new_lines": ""
+    },
+    {
+      "key": "field_197ea3052adcb4",
+      "label": "Secondary Link",
+      "name": "secondary_link",
+      "type": "link",
+      "instructions": "The optional link displayed in the top-right corner",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array"
+    },
+    {
+      "key": "field_197ea3052adf22",
+      "label": "Cards",
+      "name": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea3052ad5eb",
+      "label": "Cards",
+      "name": "cards",
+      "type": "repeater",
+      "instructions": "For managing the list of stat cards",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "collapsed": "",
+      "min": 0,
+      "max": 0,
+      "layout": "block",
+      "button_label": "Add Card",
+      "sub_fields": [
+        {
+          "key": "field_197ea3052ad79d",
+          "label": "Card",
+          "name": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_197ea3052ad364",
+          "label": "Statistic",
+          "name": "statistic",
+          "type": "text",
+          "instructions": "The large number or text in the card's header (e.g., \"3,000\", \"50%\")",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "3,000",
+          "placeholder": "",
+          "prepend": "",
+          "append": "",
+          "maxlength": ""
+        },
+        {
+          "key": "field_197ea3052ad4f8",
+          "label": "Header Color",
+          "name": "header_color",
+          "type": "select",
+          "instructions": "The background color for the statistic header",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "choices": {
+            "green": "Green",
+            "yellow": "Yellow"
+          },
+          "default_value": "green",
+          "allow_null": 0,
+          "multiple": 0,
+          "ui": 0,
+          "return_format": "value",
+          "ajax": 0,
+          "placeholder": ""
+        },
+        {
+          "key": "field_197ea3052ad0e1",
+          "label": "Description",
+          "name": "description",
+          "type": "textarea",
+          "instructions": "The text content within the card body",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+          "placeholder": "",
+          "maxlength": "",
+          "rows": 3,
+          "new_lines": ""
+        },
+        {
+          "key": "field_197ea3052ad517",
+          "label": "Primary Button",
+          "name": "primary_button",
+          "type": "link",
+          "instructions": "The first call-to-action button (solid style)",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array"
+        },
+        {
+          "key": "field_197ea3052ad4fe",
+          "label": "Secondary Button",
+          "name": "secondary_button",
+          "type": "link",
+          "instructions": "The second call-to-action button (outline style)",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array"
+        }
+      ]
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "block",
+        "operator": "==",
+        "value": "wcb/columns"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "This block displays a section with a main title, a description, and an optional secondary link. The core feature is a responsive grid of \"Stat Cards\". Each card highlights a key statistic in a colored header, followed by a description and two call-to-action buttons.",
+  "show_in_rest": 0,
+  "modified": 1751980724
+}

@@ -1,0 +1,79 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "wcb/hero-banner",
+  "title": "Hero Banner",
+  "description": "A split-layout hero banner block designed to make a strong first impression with content on the left and an impactful image on the right.",
+  "category": "wcb-blocks",
+  "icon": "cover-image",
+  "keywords": [
+    "hero",
+    "banner",
+    "split",
+    "layout"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {
+        "field_197ea29efa644c": "EYEBROW",
+        "field_197ea29efa68ba": {
+          "field_197ea29efa6728": "1",
+          "field_197ea29efa67eb": "Building safer",
+          "field_197ea29efa6b27": "online spaces",
+          "field_197ea29efa65dc": "for everyone"
+        },
+        "field_197ea29efa611c": "Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+        "field_197ea29efa6634": [
+          {
+            "field_197ea29efa67ae": {
+              "url": "#",
+              "title": "Get Started",
+              "target": ""
+            },
+            "field_197ea29efa61ce": "solid-white"
+          },
+          {
+            "field_197ea29efa67ae": {
+              "url": "#",
+              "title": "Learn More",
+              "target": ""
+            },
+            "field_197ea29efa61ce": "outline-white"
+          }
+        ],
+        "field_197ea29efa67a5": {
+          "url": "https://via.placeholder.com/800x600",
+          "alt": "Background texture"
+        },
+        "field_197ea29efa60a9": {
+          "url": "https://via.placeholder.com/600x800",
+          "alt": "Hero image"
+        }
+      },
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}
