@@ -1,0 +1,252 @@
+{
+  "key": "group_197ea322b552a2",
+  "title": "Block: Images",
+  "fields": [
+    {
+      "key": "field_197ea3280a7c0e",
+      "label": "Content",
+      "name": "",
+      "aria-label": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea3280a75fa",
+      "label": "Heading",
+      "name": "heading",
+      "aria-label": "",
+      "type": "group",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "sub_fields": [
+        {
+          "key": "field_197ea3280a7a13",
+          "label": "Level",
+          "name": "level",
+          "aria-label": "",
+          "type": "select",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "choices": {
+            "1": "H1",
+            "2": "H2",
+            "3": "H3",
+            "4": "H4",
+            "5": "H5",
+            "6": "H6"
+          },
+          "default_value": "1",
+          "return_format": "value",
+          "multiple": 0,
+          "allow_null": 0,
+          "ui": 0,
+          "ajax": 0,
+          "placeholder": ""
+        },
+        {
+          "key": "field_197ea3280a7702",
+          "label": "Text",
+          "name": "text",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "Lorem Ipsum Dolor Title",
+          "maxlength": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        }
+      ]
+    },
+    {
+      "key": "field_197ea3280a715f",
+      "label": "Description",
+      "name": "description",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam odio at ligula gravida gravida. Ut nec tortor in augue volutpat lacinia sed quis dolor.",
+      "maxlength": "",
+      "rows": "",
+      "placeholder": "",
+      "new_lines": ""
+    },
+    {
+      "key": "field_197ea3280a781a",
+      "label": "Secondary Link",
+      "name": "secondary_link",
+      "aria-label": "",
+      "type": "link",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array"
+    },
+    {
+      "key": "field_197ea3280a78a4",
+      "label": "Media",
+      "name": "",
+      "aria-label": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea3280a7d11",
+      "label": "Gallery",
+      "name": "gallery",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "pagination": 0,
+      "min": 0,
+      "max": 0,
+      "collapsed": "",
+      "button_label": "Add Gallery Item",
+      "rows_per_page": 20,
+      "sub_fields": [
+        {
+          "key": "field_197ea3280a7919",
+          "label": "Gallery Item",
+          "name": "",
+          "aria-label": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_197ea3280a73f3",
+          "label": "Image",
+          "name": "image",
+          "aria-label": "",
+          "type": "image",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "library": "all",
+          "min_width": "",
+          "min_height": "",
+          "min_size": "",
+          "max_width": "",
+          "max_height": "",
+          "max_size": "",
+          "mime_types": "",
+          "preview_size": "medium"
+        },
+        {
+          "key": "field_197ea3280a7839",
+          "label": "Caption",
+          "name": "caption",
+          "aria-label": "",
+          "type": "textarea",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam odio at ligula gravida gravida. Ut nec tortor in augue volutpat lacinia sed quis dolor.",
+          "maxlength": "",
+          "rows": "",
+          "placeholder": "",
+          "new_lines": ""
+        }
+      ]
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "block",
+        "operator": "==",
+        "value": "wcb/images"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "This block displays an image carousel with a header section. The header contains a main title, a description, and an optional secondary link. The carousel allows users to navigate through a series of images, each with its own corresponding caption displayed underneath.",
+  "show_in_rest": 0,
+  "modified": 1751980867
+}

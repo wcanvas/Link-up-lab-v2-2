@@ -1,0 +1,256 @@
+{
+  "key": "group_197ea2ea2215d9",
+  "title": "Block: CTA",
+  "fields": [
+    {
+      "key": "field_197ea2efaae949",
+      "label": "Content",
+      "name": "",
+      "aria-label": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea2efaae6da",
+      "label": "Intro Title",
+      "name": "intro_title",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "The main title for the introductory left column.",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Lorem Ipsum Title",
+      "maxlength": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": ""
+    },
+    {
+      "key": "field_197ea2efaae22e",
+      "label": "Intro Description",
+      "name": "intro_description",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "The main description text in the left column.",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam odio at ligula gravida gravida. Ut nec tortor in augue volutpat lacinia sed quis dolor.",
+      "maxlength": "",
+      "rows": 4,
+      "placeholder": "",
+      "new_lines": ""
+    },
+    {
+      "key": "field_197ea2efaae4cb",
+      "label": "Intro Link",
+      "name": "intro_link",
+      "aria-label": "",
+      "type": "link",
+      "instructions": "The link displayed at the bottom of the left column.",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array"
+    },
+    {
+      "key": "field_197ea2efaae815",
+      "label": "CTA Cards",
+      "name": "cta_cards",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "For managing the repeatable call-to-action cards on the right.",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "pagination": 0,
+      "min": 0,
+      "max": 0,
+      "collapsed": "",
+      "button_label": "Add CTA Card",
+      "rows_per_page": 20,
+      "sub_fields": [
+        {
+          "key": "field_197ea2efaaeb41",
+          "label": "CTA Card",
+          "name": "",
+          "aria-label": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_197ea2efaae416",
+          "label": "Title",
+          "name": "title",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "The title for an individual CTA card.",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "Call to action number one",
+          "maxlength": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_197ea2efaae315",
+          "label": "Description",
+          "name": "description",
+          "aria-label": "",
+          "type": "textarea",
+          "instructions": "The descriptive text for the card.",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "Separated they live in Bookmarks right at the coast of the famous Semantics, large language ocean Separated they live in Bookmarks right",
+          "maxlength": "",
+          "rows": 4,
+          "placeholder": "",
+          "new_lines": ""
+        },
+        {
+          "key": "field_197ea2efaae40d",
+          "label": "Primary Button",
+          "name": "primary_button",
+          "aria-label": "",
+          "type": "link",
+          "instructions": "The primary (solid, green) button.",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array"
+        },
+        {
+          "key": "field_197ea2efaae542",
+          "label": "Secondary Button",
+          "name": "secondary_button",
+          "aria-label": "",
+          "type": "link",
+          "instructions": "The secondary (outlined, white) button.",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array"
+        }
+      ]
+    },
+    {
+      "key": "field_197ea2efaae5a0",
+      "label": "Media",
+      "name": "",
+      "aria-label": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea2efaae13c",
+      "label": "Background Image",
+      "name": "background_image",
+      "aria-label": "",
+      "type": "image",
+      "instructions": "The background image for the CTA section.",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "library": "all",
+      "min_width": "",
+      "min_height": "",
+      "min_size": "",
+      "max_width": "",
+      "max_height": "",
+      "max_size": "",
+      "mime_types": "",
+      "preview_size": "medium"
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "block",
+        "operator": "==",
+        "value": "wcb/cta"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "A full-width, three-column Call-to-Action block. The left column provides an introductory title, description, and a link. The right side features two or more repeatable CTA cards, each with its own title, description, and a pair of action buttons.",
+  "show_in_rest": 0,
+  "modified": 1751980636
+}

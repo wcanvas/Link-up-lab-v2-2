@@ -1,0 +1,317 @@
+{
+  "key": "group_197ea36a26e4f0",
+  "title": "Block: Header",
+  "fields": [
+    {
+      "key": "field_197ea370722466",
+      "label": "Top Bar Content",
+      "name": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea3707229fd",
+      "label": "Top Bar Links",
+      "name": "top_bar_links",
+      "type": "repeater",
+      "instructions": "Add navigation links for the upper light-colored bar",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "collapsed": "",
+      "min": 0,
+      "max": 0,
+      "layout": "block",
+      "button_label": "Add Link",
+      "sub_fields": [
+        {
+          "key": "field_197ea3707224e1",
+          "label": "Link",
+          "name": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_197ea370722923",
+          "label": "Link",
+          "name": "link",
+          "type": "link",
+          "instructions": "Navigation link for the top bar",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "default_value": {
+            "url": "",
+            "title": "",
+            "target": ""
+          }
+        }
+      ],
+      "default_value": []
+    },
+    {
+      "key": "field_197ea370722516",
+      "label": "Top Bar Icons",
+      "name": "top_bar_icons",
+      "type": "repeater",
+      "instructions": "Add icons for the right side of the top bar",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "collapsed": "",
+      "min": 0,
+      "max": 0,
+      "layout": "block",
+      "button_label": "Add Icon",
+      "sub_fields": [
+        {
+          "key": "field_197ea37072234d",
+          "label": "Icon",
+          "name": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_197ea370722f43",
+          "label": "Icon",
+          "name": "icon",
+          "type": "select",
+          "instructions": "Choose the icon to display",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "choices": {
+            "facebook": "Facebook",
+            "youtube": "YouTube",
+            "x": "X (Twitter)",
+            "search": "Search"
+          },
+          "default_value": "facebook",
+          "allow_null": 0,
+          "multiple": 0,
+          "ui": 0,
+          "return_format": "value",
+          "ajax": 0,
+          "placeholder": ""
+        },
+        {
+          "key": "field_197ea3707227bb",
+          "label": "URL",
+          "name": "url",
+          "type": "url",
+          "instructions": "The destination URL for the icon",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "placeholder": ""
+        }
+      ],
+      "default_value": []
+    },
+    {
+      "key": "field_197ea3707227dd",
+      "label": "Logo",
+      "name": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea3707221ea",
+      "label": "Logo Image",
+      "name": "logo_image",
+      "type": "image",
+      "instructions": "The main site logo displayed in the header",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "preview_size": "medium",
+      "library": "all",
+      "min_width": "",
+      "min_height": "",
+      "min_size": "",
+      "max_width": "",
+      "max_height": "",
+      "max_size": "",
+      "mime_types": "",
+      "default_value": ""
+    },
+    {
+      "key": "field_197ea3707226bb",
+      "label": "Logo URL",
+      "name": "logo_url",
+      "type": "url",
+      "instructions": "The URL the logo points to, typically the homepage",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "/",
+      "placeholder": ""
+    },
+    {
+      "key": "field_197ea370722eb4",
+      "label": "Main Navigation",
+      "name": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea370722b2a",
+      "label": "Main Navigation Links",
+      "name": "main_navigation",
+      "type": "repeater",
+      "instructions": "Add navigation links for the main menu in the lower dark-colored bar",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "collapsed": "",
+      "min": 0,
+      "max": 0,
+      "layout": "block",
+      "button_label": "Add Navigation Link",
+      "sub_fields": [
+        {
+          "key": "field_197ea370722d80",
+          "label": "Navigation Link",
+          "name": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_197ea37072294b",
+          "label": "Link",
+          "name": "link",
+          "type": "link",
+          "instructions": "Navigation link for the main menu",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "default_value": {
+            "url": "",
+            "title": "",
+            "target": ""
+          }
+        }
+      ],
+      "default_value": []
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "block",
+        "operator": "==",
+        "value": "wcb/header"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "This block creates a two-tiered site header with customizable navigation links, social icons, and logo.",
+  "show_in_rest": 0,
+  "modified": 1751981164
+}

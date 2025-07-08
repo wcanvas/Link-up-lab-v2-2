@@ -1,0 +1,333 @@
+{
+  "key": "group_197ea298626d91",
+  "title": "Block: Hero Banner",
+  "fields": [
+    {
+      "key": "field_197ea29efa6adb",
+      "label": "Content",
+      "name": "",
+      "aria-label": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 1,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea29efa644c",
+      "label": "Eyebrow",
+      "name": "eyebrow",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "A small text line appearing above the main heading.",
+      "required": 0,
+      "conditional_logic": 0,
+      "default_value": "EYEBROW",
+      "maxlength": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": ""
+    },
+    {
+      "key": "field_197ea29efa68ba",
+      "label": "Heading",
+      "name": "heading",
+      "aria-label": "",
+      "type": "group",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "sub_fields": [
+        {
+          "key": "field_197ea29efa6728",
+          "label": "Level",
+          "name": "level",
+          "aria-label": "",
+          "type": "select",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "choices": {
+            "1": "H1",
+            "2": "H2",
+            "3": "H3",
+            "4": "H4",
+            "5": "H5",
+            "6": "H6"
+          },
+          "default_value": "1",
+          "return_format": "value",
+          "multiple": 0,
+          "allow_null": 0,
+          "ui": 0,
+          "ajax": 0,
+          "placeholder": ""
+        },
+        {
+          "key": "field_197ea29efa67eb",
+          "label": "Line 1",
+          "name": "line1",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "Building safer",
+          "maxlength": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_197ea29efa6b27",
+          "label": "Line 2",
+          "name": "line2",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "online spaces",
+          "maxlength": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_197ea29efa65dc",
+          "label": "Line 3",
+          "name": "line3",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "for everyone",
+          "maxlength": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        }
+      ]
+    },
+    {
+      "key": "field_197ea29efa611c",
+      "label": "Description",
+      "name": "description",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "The paragraph of text below the heading.",
+      "required": 0,
+      "conditional_logic": 0,
+      "default_value": "Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+      "placeholder": "",
+      "maxlength": "",
+      "rows": 4,
+      "new_lines": ""
+    },
+    {
+      "key": "field_197ea29efa6634",
+      "label": "Buttons",
+      "name": "buttons",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "For adding one or more call-to-action buttons.",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "pagination": 0,
+      "min": 0,
+      "max": 0,
+      "collapsed": "",
+      "button_label": "Add Button",
+      "rows_per_page": 20,
+      "sub_fields": [
+        {
+          "key": "field_197ea29efa634e",
+          "label": "Button",
+          "name": "",
+          "aria-label": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_197ea29efa67ae",
+          "label": "Button",
+          "name": "button",
+          "aria-label": "",
+          "type": "link",
+          "instructions": "A standard ACF link field to manage the button's URL, text, and target.",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array"
+        },
+        {
+          "key": "field_197ea29efa61ce",
+          "label": "Style",
+          "name": "style",
+          "aria-label": "",
+          "type": "select",
+          "instructions": "A dropdown to choose the button's appearance.",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "choices": {
+            "solid-white": "Solid White",
+            "outline-white": "Outline White"
+          },
+          "default_value": "solid-white",
+          "return_format": "value",
+          "multiple": 0,
+          "allow_null": 0,
+          "ui": 0,
+          "ajax": 0,
+          "placeholder": ""
+        }
+      ]
+    },
+    {
+      "key": "field_197ea29efa67bb",
+      "label": "Media",
+      "name": "",
+      "aria-label": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea29efa67a5",
+      "label": "Background Image",
+      "name": "background_image",
+      "aria-label": "",
+      "type": "image",
+      "instructions": "The background image displayed behind the content on the left side.",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "library": "all",
+      "min_width": "",
+      "min_height": "",
+      "min_size": "",
+      "max_width": "",
+      "max_height": "",
+      "max_size": "",
+      "mime_types": "",
+      "preview_size": "medium"
+    },
+    {
+      "key": "field_197ea29efa60a9",
+      "label": "Main Image",
+      "name": "main_image",
+      "aria-label": "",
+      "type": "image",
+      "instructions": "The main image displayed on the right side of the block.",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "library": "all",
+      "min_width": "",
+      "min_height": "",
+      "min_size": "",
+      "max_width": "",
+      "max_height": "",
+      "max_size": "",
+      "mime_types": "",
+      "preview_size": "medium"
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "block",
+        "operator": "==",
+        "value": "wcb/hero-banner"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "A split-layout hero banner block designed to make a strong first impression. The left side features a textured background with an eyebrow, a prominent heading, a short description, and call-to-action buttons. The right side displays a large, impactful image.",
+  "show_in_rest": 0,
+  "modified": 1751980306
+}

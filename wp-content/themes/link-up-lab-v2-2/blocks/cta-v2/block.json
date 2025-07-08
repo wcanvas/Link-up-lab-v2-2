@@ -1,0 +1,85 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "wcb/cta-v2",
+  "title": "CTA v2",
+  "description": "A section block that displays a main title, a descriptive paragraph, and an optional secondary link at the top. Below this introduction, it features a repeatable set of call-to-action cards, arranged horizontally. Each card includes a title, description, and two distinct action buttons.",
+  "category": "wcb-blocks",
+  "icon": "megaphone",
+  "keywords": [
+    "cta",
+    "call-to-action",
+    "cards",
+    "buttons"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {
+        "field_197ea35b82a589": {
+          "field_197ea35b82a9f6": "2",
+          "field_197ea35b82a09c": "Our Work"
+        },
+        "field_197ea35b82ac6a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam odio at ligula gravida gravida. Ut nec tortor in augue volutpat lacinia sed quis dolor.",
+        "field_197ea35b82a51a": {
+          "title": "View All Projects",
+          "url": "#",
+          "target": ""
+        },
+        "field_197ea35b82a266": [
+          {
+            "field_197ea35b82af78": "Call to action number one",
+            "field_197ea35b82aba0": "Separated they live in Bookmarks right at the coast of the famous Semantics, large language ocean Separated they live in Bookmarks right",
+            "field_197ea35b82a635": {
+              "title": "Email",
+              "url": "mailto:contact@example.com",
+              "target": ""
+            },
+            "field_197ea35b82a37c": {
+              "title": "Text",
+              "url": "tel:+1234567890",
+              "target": ""
+            }
+          },
+          {
+            "field_197ea35b82af78": "Call to action number two",
+            "field_197ea35b82aba0": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+            "field_197ea35b82a635": {
+              "title": "Get Started",
+              "url": "#",
+              "target": ""
+            },
+            "field_197ea35b82a37c": {
+              "title": "Learn More",
+              "url": "#",
+              "target": ""
+            }
+          }
+        ]
+      },
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}

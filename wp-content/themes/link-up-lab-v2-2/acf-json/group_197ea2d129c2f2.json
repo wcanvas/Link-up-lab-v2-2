@@ -1,0 +1,238 @@
+{
+  "key": "group_197ea2d129c2f2",
+  "title": "Block: Multicolumns",
+  "fields": [
+    {
+      "key": "field_197ea2d68d5ae9",
+      "label": "Content",
+      "name": "",
+      "aria-label": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea2d68d52f3",
+      "label": "Title",
+      "name": "title",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "The main heading for the section",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Lorem Ipsum Dolor Title",
+      "maxlength": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": ""
+    },
+    {
+      "key": "field_197ea2d68d515e",
+      "label": "Description",
+      "name": "description",
+      "aria-label": "",
+      "type": "textarea",
+      "instructions": "The descriptive text appearing below the main title",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam odio at ligula gravida gravida. Ut nec tortor in augue volutpat lacinia sed quis dolor.",
+      "placeholder": "",
+      "maxlength": "",
+      "rows": "",
+      "new_lines": ""
+    },
+    {
+      "key": "field_197ea2d68d6091",
+      "label": "Secondary Link",
+      "name": "secondary_link",
+      "aria-label": "",
+      "type": "link",
+      "instructions": "An optional link displayed in the top-right corner of the block",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array"
+    },
+    {
+      "key": "field_197ea2d68d6767",
+      "label": "Columns",
+      "name": "columns",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "Add feature cards with icons, titles, descriptions and buttons",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "pagination": 0,
+      "min": 0,
+      "max": 0,
+      "collapsed": "",
+      "button_label": "Add Column",
+      "rows_per_page": 20,
+      "sub_fields": [
+        {
+          "key": "field_197ea2d68d6cd9",
+          "label": "Column",
+          "name": "",
+          "aria-label": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_197ea2d68d695a",
+          "label": "Icon",
+          "name": "icon",
+          "aria-label": "",
+          "type": "image",
+          "instructions": "The icon displayed at the top of the card",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "library": "all",
+          "min_width": "",
+          "min_height": "",
+          "min_size": "",
+          "max_width": "",
+          "max_height": "",
+          "max_size": "",
+          "mime_types": "",
+          "preview_size": "medium"
+        },
+        {
+          "key": "field_197ea2d68d60a9",
+          "label": "Card Title",
+          "name": "title",
+          "aria-label": "",
+          "type": "text",
+          "instructions": "The title for the individual card",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "Lorem Ipsum Dolor",
+          "maxlength": "",
+          "placeholder": "",
+          "prepend": "",
+          "append": ""
+        },
+        {
+          "key": "field_197ea2d68d6d42",
+          "label": "Card Description",
+          "name": "description",
+          "aria-label": "",
+          "type": "textarea",
+          "instructions": "The descriptive text within the card",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+          "placeholder": "",
+          "maxlength": "",
+          "rows": "",
+          "new_lines": ""
+        },
+        {
+          "key": "field_197ea2d68d69e6",
+          "label": "Primary Button",
+          "name": "primary_button",
+          "aria-label": "",
+          "type": "link",
+          "instructions": "The primary call-to-action button",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array"
+        },
+        {
+          "key": "field_197ea2d68d65ac",
+          "label": "Secondary Button",
+          "name": "secondary_button",
+          "aria-label": "",
+          "type": "link",
+          "instructions": "The secondary call-to-action button",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array"
+        }
+      ]
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "block",
+        "operator": "==",
+        "value": "wcb/multicolumns"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "This block displays a section with a main header and a multi-column layout of feature cards. The header contains a title, a description, and an optional secondary link. Below the header, a repeater field allows content editors to add multiple, consistently styled columns, each featuring an icon, title, description, and two distinct call-to-action buttons.",
+  "show_in_rest": 0,
+  "modified": 1751980533
+}

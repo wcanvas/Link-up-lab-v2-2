@@ -1,0 +1,322 @@
+{
+  "key": "group_197ea390fac083",
+  "title": "Block: Footer",
+  "fields": [
+    {
+      "key": "field_197ea39748f2e7",
+      "label": "Content",
+      "name": "",
+      "aria-label": "",
+      "type": "accordion",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "open": 0,
+      "multi_expand": 0,
+      "endpoint": 0
+    },
+    {
+      "key": "field_197ea39748feff",
+      "label": "Main Logo",
+      "name": "main_logo",
+      "aria-label": "",
+      "type": "image",
+      "instructions": "The primary logo displayed in the footer",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "library": "all",
+      "min_width": "",
+      "min_height": "",
+      "min_size": "",
+      "max_width": "",
+      "max_height": "",
+      "max_size": "",
+      "mime_types": "",
+      "preview_size": "medium"
+    },
+    {
+      "key": "field_197ea39748fb77",
+      "label": "Partner Logos",
+      "name": "partner_logos",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "Add partner logos to display under the main logo",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "pagination": 0,
+      "min": 0,
+      "max": 0,
+      "collapsed": "",
+      "button_label": "Add Partner Logo",
+      "rows_per_page": 20,
+      "sub_fields": [
+        {
+          "key": "field_197ea39748f155",
+          "label": "Partner Logo",
+          "name": "",
+          "aria-label": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_197ea39748ffec",
+          "label": "Partner Logo",
+          "name": "partner_logo",
+          "aria-label": "",
+          "type": "image",
+          "instructions": "Upload the partner logo image",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "library": "all",
+          "min_width": "",
+          "min_height": "",
+          "min_size": "",
+          "max_width": "",
+          "max_height": "",
+          "max_size": "",
+          "mime_types": "",
+          "preview_size": "medium"
+        }
+      ]
+    },
+    {
+      "key": "field_197ea39748f5bf",
+      "label": "Search Placeholder",
+      "name": "search_placeholder",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "Placeholder text for the search input field",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Search by keyword",
+      "maxlength": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": ""
+    },
+    {
+      "key": "field_197ea39748f482",
+      "label": "Navigation Links",
+      "name": "navigation_links",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "Add navigation links for the footer menu",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "pagination": 0,
+      "min": 0,
+      "max": 0,
+      "collapsed": "",
+      "button_label": "Add Navigation Link",
+      "rows_per_page": 20,
+      "sub_fields": [
+        {
+          "key": "field_197ea39748ffde",
+          "label": "Navigation Link",
+          "name": "",
+          "aria-label": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_197ea39748f3e1",
+          "label": "Link",
+          "name": "link",
+          "aria-label": "",
+          "type": "link",
+          "instructions": "Add the navigation link text and URL",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array"
+        }
+      ]
+    },
+    {
+      "key": "field_197ea39748f31c",
+      "label": "Social Links",
+      "name": "social_links",
+      "aria-label": "",
+      "type": "repeater",
+      "instructions": "Add social media links and icons",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "layout": "block",
+      "pagination": 0,
+      "min": 0,
+      "max": 0,
+      "collapsed": "",
+      "button_label": "Add Social Link",
+      "rows_per_page": 20,
+      "sub_fields": [
+        {
+          "key": "field_197ea39748fc9c",
+          "label": "Social Link",
+          "name": "",
+          "aria-label": "",
+          "type": "accordion",
+          "instructions": "",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "open": 0,
+          "multi_expand": 0,
+          "endpoint": 0
+        },
+        {
+          "key": "field_197ea39748fec8",
+          "label": "Icon",
+          "name": "icon",
+          "aria-label": "",
+          "type": "select",
+          "instructions": "Select the social media icon",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "choices": {
+            "youtube": "YouTube",
+            "instagram": "Instagram",
+            "facebook": "Facebook",
+            "twitter": "Twitter",
+            "linkedin": "LinkedIn",
+            "tiktok": "TikTok"
+          },
+          "default_value": "facebook",
+          "return_format": "value",
+          "multiple": 0,
+          "allow_null": 0,
+          "ui": 0,
+          "ajax": 0,
+          "placeholder": ""
+        },
+        {
+          "key": "field_197ea39748ff08",
+          "label": "URL",
+          "name": "url",
+          "aria-label": "",
+          "type": "url",
+          "instructions": "Enter the social media profile URL",
+          "required": 0,
+          "conditional_logic": 0,
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "default_value": "",
+          "placeholder": "https://"
+        }
+      ]
+    },
+    {
+      "key": "field_197ea39748ff89",
+      "label": "Copyright Text",
+      "name": "copyright_text",
+      "aria-label": "",
+      "type": "text",
+      "instructions": "Copyright notice displayed at the bottom of the footer",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "default_value": "Copyright 2025 LinkUp Lab. All Rights Reserved.",
+      "maxlength": "",
+      "placeholder": "",
+      "prepend": "",
+      "append": ""
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "block",
+        "operator": "==",
+        "value": "wcb/footer"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "A global site footer block that displays branding, search functionality, and key navigation elements. It features a main logo with partner logos, a search input, a multi-column navigation menu, a set of social media icons, and a copyright notice.",
+  "show_in_rest": 0,
+  "modified": 1751981323
+}

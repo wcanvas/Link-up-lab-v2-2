@@ -1,0 +1,75 @@
+{
+  "$schema": "https://advancedcustomfields.com/schemas/json/main/block.json",
+  "name": "wcb/50-50",
+  "title": "50-50",
+  "description": "A 50/50 split-screen block featuring text content alongside a prominent image with customizable buttons.",
+  "category": "wcb-blocks",
+  "icon": "columns",
+  "keywords": [
+    "50-50",
+    "split",
+    "columns",
+    "image",
+    "text",
+    "buttons"
+  ],
+  "textdomain": "wcanvas-boilerplate",
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./render.php"
+  },
+  "supports": {
+    "customClassName": false,
+    "align": false,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
+  },
+  "example": {
+    "attributes": {
+      "data": {
+        "field_197ea346bf6f99": "EYEBROW",
+        "field_197ea346bf6e34": {
+          "field_197ea346bf6135": "2",
+          "field_197ea346bf6cf2": "Lorem Ipsum"
+        },
+        "field_197ea346bf690e": "Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.",
+        "field_197ea346bf6f05": {
+          "url": "https://via.placeholder.com/600x400",
+          "alt": "Example image"
+        },
+        "field_197ea346bf6c25": [
+          {
+            "field_197ea346bf6370": {
+              "title": "Learn More",
+              "url": "#",
+              "target": ""
+            },
+            "field_197ea346bf6482": "solid"
+          },
+          {
+            "field_197ea346bf6370": {
+              "title": "Contact Us",
+              "url": "#",
+              "target": ""
+            },
+            "field_197ea346bf6482": "outline"
+          }
+        ]
+      },
+      "mode": "preview"
+    },
+    "viewportWidth": 1440
+  },
+  "editorScript": [
+    "file:./index.js"
+  ],
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}
